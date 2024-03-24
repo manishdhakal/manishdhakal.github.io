@@ -2,96 +2,213 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Manish Dhakal
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Nepali, English
+    - name: Position
+      value: Research Assistant, <a href='https://naamii.org.np'>NAAMII</a>
+    - name: Summary
+      value: An accomplished computer engineer with experience as a Research Assistant (RA), interested in multimodal learning, medical imaging, and continual learning, skilled in maths and programming, and adept at communicating research results to the community, contributing to advancements in artificial intelligence research.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Nepal Applied Mathematics and Informatics Institute for research (NAAMII) <br> <i>Supervisor:</i> <a name="Bishesh Khanal, Ph.D." href="https://scholar.google.com/citations?user=ZfaUCG5h3xsC"> <u>Bishesh Khanal, Ph.D.</u> </a>
+      year: Apr. 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed skills for <b> object detection and segmentation </b> tasks on 2D medical images and explored their multi-modal approach ( esp. <b>vision-language models </b> ); also worked for segmentation with <b>3D mesh</b> data.
+        - Demonstrated <b> strong skills in writing scientific manuscripts, </b> with multiple papers submitted for review, showcasing the ability to <b> communicate methodologies, results, and implications </b> effectively. 
+        - Ensured <b> reproducibility and modularity in ML projects </b> by implementing robust methodologies and practices, allowing for the transparent and replicable programming of the projects.
+    
+    - title: Blockchain Intern
+      institution: Sireto Technology
+      year: Aug. 2021 - Dec. 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Wrote <b> smart contracts in Haskell </b> language using the Plutus framework for the Cardano ecosystem.
+        - Improved <b>software development skills</b> by learning new tools and techniques that assist in completing the project.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Co-founder
+      institution: Techniti Nepal
+      year: Sept. 2020 - Present
       description:
+        - Co-founded Nepal-based company providing <b>software solutions</b> such as websites, electronic health record management systems, data visualization interfaces, and IoT-based  solutions as well.
+        - <b>Coordinated with clients</b> to understand their requirements and provided them with feasible and impactful solutions.
+        - Worked as a frontend developer with <b>ReactJS</b> and backend developer with <b>Django and FastAPI</b> for web applications. 
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    #     - title: Description 3.
+    #       contents:
+    #         - Sub-description 1.
+    #         - Sub-description 2.
+    # - title: Visiting Professor
+    #   institution: California Institute of Technology, Pasadena, California, US
+    #   year: 1933
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
+
+    # - title: Director
+    #   institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+    #   year: 1917-1933
+
+    # - title: Professor of Theoretical Physics
+    #   institution: Karl-Ferdinand University, Prague, Czechoslovakia
+    #   year: 1911 - 1917
+    #   description:
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor in Computer Engineering
+      institution: Pulchowk Campus, Institute of Engineering, Tribhuvan University <br> <i>Thesis Supervisor:</i> <a name=" Prof. Subarna Shakya" href="https://scholar.google.com/citations?user=ZB6i0OKaPo4C"> <u> Prof. Subarna Shakya</u> </a>
+      year: 2017 - 2022
+      description:
+        - <b>Ranked 11th</b> in the engineering entrance exam, competing with <b>15,000+ candidates,</b> received <b>full scholarship</b> for undergraduate study.
+        - Gained knowledge about <b>significant CS courses</b> like AI, Image Processing, Data Structure & Algorithm, DBMS, Software Engineering, and so on.
+        - <i>Thesis:</i> Automatic speech recognition for <b>low-resourced Nepali language</b> which was later presented at an IEEE conference.
+
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    # - title: Federal teaching diploma
+    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+    #   year: 1900
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Trainer
+      institution: Community Eye, ENT & Rehabilitation Center (CEERS)
+      year: June 2023 - Present
+      description:
+        - <b>Training a group of interns</b> to develop medical imaging applications with the use of ML.
+        - Instructing and guiding them about ML through activities like <b>paper reading sessions, lab and lecture sessions, and topic presentations</b>.
+
+    - title: Teaching Assistant
+      institution: 4th Annual Nepal AI School (ANAIS)
+      year: May 2023 - June 2023
+      description:
+        - <b>Guided participants</b> through a <b>series of labs</b> related to neural networks, transformers, federated learning, graph neural networks, active learning, and so on.
+        - <b>Mentored three groups</b> during Hack-a-Dev, a 10-day <b>machine learning hackathon</b>.
+        
+    - title: Programming Instructor
+      institution: Software Fellowship, Locus 2021
+      year: Summer 2021
+      description:
+        - Provided tutoring on <b>software development life cycle</b> and assisted participants with <b>software documentation</b> and <b>library/framework installation</b>.
+        - Taught participants about <b>API development for web applications,</b> emphasizing its concepts, best practices, and usage.
+        
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    # - title: Federal teaching diploma
+    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+    #   year: 1900
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: Lower Limb Segmentation
+      institution: Medical Imaging <br> <i>Supervisor:</i> <a name="Taman Upadhaya, Ph.D." href="https://scholar.google.com/citations?user=RuVA5rUAAAAJ"> <u>Taman Upadhaya, Ph.D.</u> </a>
+      year: Jul. 2023 - Sep. 2023
+      description:
+        - <b>Conducted training experiments </b> of different deep learning models on the remote server to segment three bones – knee, pelvis, and ankle – from CT scans of the lower limbs of patients.
+        - <b>Deployed a robust Python rest API </b> on the remote server for the segmentation request from a client, with a pipeline including pre-processing, inference, and post-processing steps.
+        - Ensured <b> interoperability, reproducibility, and understandability </b> of the deployed application using Docker, and well-structured documentation and comments.
+    - title: Vision Language Segmentation Models (VLSMs) for Medical Images
+      institution: Medical Imaging
+      year: Feb. 2023 - Jun. 2023
+      description:
+        - Reported zero-shot and finetuned segmentation performance of <b>4 VLSMs</b> on <b>11 medical datasets</b> using <b>9 types of prompts</b> derived from <b>14 attributes</b>, prompts are given as text conditioning informations.
+        - Worked with <b>encoder-decoder architecture</b> to generate binary segmentation masks for VLSMs.
+        - Tested the compatibility of the VLSMs (such as <b>CLIPSeg and CRIS</b>) pre-trained for open-domain images with medical images.
+
+    - title: Object detection in 2D Orthopantomogram (OPG) Images
+      institution: Dental Imaging
+      year: Sept. 2022 - Present
+      description:
+        - Critically analyzed the <b>literature and state-of-the-art</b> models for different segmentation and detection tasks on radiology images of dentistry and their inadequacy.
+        - Designed and developed the <b>data annotation tool</b> for object detection over 2D OPG images.
+        - Working on identification and localization of dental <b>anatomical structures and abnormalities</b> while benchmarking with existing methods like <b>YOLO, RetinaNet, RCNN, and FastRCNN</b>.
+
+    - title: Segmentation in 3D Teeth Scan
+      institution: MICCAI Challenge 2022
+      year: Summer 2022
+      description: 
+        - Learned about the representation and preprocessing of <b>3D mesh and point cloud</b> data. 
+        - Benchmarked with different 3D point cloud segmentation models such as <b>Pointnet/++ and DeltaConv</b>.
+
+- title: Technical Skills
+  type: list
+  contents:
+    - <b class="font-weight-bold"><i>Machine Learning:</i></b><b> Unimodal and multimodal (esp. vision-language model)</b> ML project structuring for detection and segmentation task while maintaining <b>reproducibility and modularity</b>; integrating <b>open source models</b> for benchmarking. Proficiency in using libraries and frameworks like <b>NumPy, Pandas, PyTorch, and TensorFlow.
+    - <b class="font-weight-bold"><i>Writing:</i></b> <b>Knowledge synthesis</b> from the existing literature, <b>writing scientific documents</b> and <b>manuscripts</b> with <b>LaTex</b>, and <b>communicating the results</b> to the community with transparency.
+    - <b class="font-weight-bold"><i>Web Development:</i></b> Competence in creating well-documented backend applications with relational databases using frameworks like <b>Django, FastAPI, and NodeJS</b>. Adept at client-side programming with <b>ReactJS</b>.
+    - <b class="font-weight-bold"><i>Remote Server:</i></b> Able to work with <b>remote Linux machines</b> for coding and project deployment using <b>SSH, shell script, tmux, Nginx, and Docker</b>.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/manishdhakal/SuperResolution">SR-GAN</a>
+      year: 2020
+      description: Open source implmentation of SuperResolution using GAN <a href="https://arxiv.org/abs/1609.04802"> (SRGAN)</a> in Keras framework.
+    
+    - title: <a href="https://github.com/gaudelbijay/NepaliAutoCompleteAndLM">Nepali AutoComplete and LM</a>
+      year: 2020
+      description: Open source implementation of Nepali AutoComplete and Language Model using LSTM in PyTorch framework.
+
+    - title: <a href="https://github.com/manishdhakal/SahaYatri"> SahaYatri</a>
+      year: 2020
+      description: Hackathon project to promote toursim in Nepal developed using Django and ReactJS.
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - year: 2017
+      items: 
+        - B.E. funded by Government of Nepal.
+    # - year: 2029
+    #   items: 
+    #     - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: AI/ML
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Medical Imaging
+        - Vision Language Model
+    # - title: Topic 2.
+    #   items:
+    #     - Description 1.
+    #     - Description 2.
 
-- title: Other Interests
-  type: list
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Swimming, Trekking, and Motorcyle.
+- title: References
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Bishesh Khanal, Ph.D.
+      items:
+        - Research Director, Nepal Applied Mathematics and Informatics Institute for research (NAAMII)
+        - <a href="mailto:bishesh.khanal@naamii.org.np">bishesh.khanal@naamii.org.np</a>
+    - title: Prof. Subarna Shakya
+      items:
+        - Professor of Computer Engineering, Department of Electronics and Computer Engineering, Pulchowk Campus, Institute of Engineering, Tribhuvan University
+        - <a href="mailto:drss@ioe.edu.np">drss@ioe.edu.np</a>
+    - title: Taman Upadhaya, Ph.D.
+      items:
+        - Associate Researcher, University of California San Francisco || Adjunct Research Scientist, Nepal Applied Mathematics and Informatics Institute for research (NAAMII)
+        - <a href="mailto:taman.upadhaya@naamii.org.np">taman.upadhaya@naamii.org.np</a>
+

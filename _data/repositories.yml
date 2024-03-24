@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - manishdhakal
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - naamiinepal/medvlsm
+  - manishdhakal/ASR-Nepali-using-CNN-BiLSTM-ResNet
+  - naamiinepal/synthetic-boost
+  - manishdhakal/Backpropagation
+  - manishdhakal/SuperResolution
+  - gaudelbijay/NepaliAutoCompleteAndLM
