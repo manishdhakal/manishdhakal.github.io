@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: _cv_
 nav: true
 nav_order: 5
 cv_pdf: Manish_Dhakal_CV.pdf

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: _about_
 permalink: /
 subtitle: <b> Research Assistant </b>, <a href='https://naamii.org.np'>NAAMII</a>. Jwagal Lalitpur.
 
