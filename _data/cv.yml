@@ -15,7 +15,7 @@
   contents:
     - title: Research Assistant
       institution: Nepal Applied Mathematics and Informatics Institute for research (NAAMII) <br> <i>Supervisor:</i> <a name="Bishesh Khanal, Ph.D." href="https://scholar.google.com/citations?user=ZfaUCG5h3xsC"> <u>Bishesh Khanal, Ph.D.</u> </a>
-      year: Apr. 2022 - Present
+      year: 2022 - Present
       description:
         - Developed skills for <b> object detection and segmentation </b> tasks on 2D medical images and explored their multi-modal approach ( esp. <b>vision-language models </b> ); also worked for segmentation with <b>3D mesh</b> data.
         - Demonstrated <b> strong skills in writing scientific manuscripts, </b> with multiple papers submitted for review, showcasing the ability to <b> communicate methodologies, results, and implications </b> effectively. 
@@ -23,14 +23,14 @@
     
     - title: Blockchain Intern
       institution: Sireto Technology
-      year: Aug. 2021 - Dec. 2021
+      year: 2021
       description:
         - Wrote <b> smart contracts in Haskell </b> language using the Plutus framework for the Cardano ecosystem.
         - Improved <b>software development skills</b> by learning new tools and techniques that assist in completing the project.
 
     - title: Co-founder
       institution: Techniti Nepal
-      year: Sept. 2020 - Present
+      year: 2020 - Present
       description:
         - Co-founded Nepal-based company providing <b>software solutions</b> such as websites, electronic health record management systems, data visualization interfaces, and IoT-based  solutions as well.
         - <b>Coordinated with clients</b> to understand their requirements and provided them with feasible and impactful solutions.
@@ -83,14 +83,14 @@
   contents:
     - title: Trainer
       institution: Community Eye, ENT & Rehabilitation Center (CEERS)
-      year: June 2023 - Present
+      year: 2023 - 2024
       description:
         - <b>Training a group of interns</b> to develop medical imaging applications with the use of ML.
         - Instructing and guiding them about ML through activities like <b>paper reading sessions, lab and lecture sessions, and topic presentations</b>.
 
     - title: Teaching Assistant
       institution: 4th Annual Nepal AI School (ANAIS)
-      year: May 2023 - June 2023
+      year: Spring 2023
       description:
         - <b>Guided participants</b> through a <b>series of labs</b> related to neural networks, transformers, federated learning, graph neural networks, active learning, and so on.
         - <b>Mentored three groups</b> during Hack-a-Dev, a 10-day <b>machine learning hackathon</b>.
@@ -118,14 +118,14 @@
   contents:
     - title: Lower Limb Segmentation
       institution: Medical Imaging <br> <i>Supervisor:</i> <a name="Taman Upadhaya, Ph.D." href="https://scholar.google.com/citations?user=RuVA5rUAAAAJ"> <u>Taman Upadhaya, Ph.D.</u> </a>
-      year: Jul. 2023 - Sep. 2023
+      year: 2023
       description:
         - <b>Conducted training experiments </b> of different deep learning models on the remote server to segment three bones – knee, pelvis, and ankle – from CT scans of the lower limbs of patients.
         - <b>Deployed a robust Python rest API </b> on the remote server for the segmentation request from a client, with a pipeline including pre-processing, inference, and post-processing steps.
         - Ensured <b> interoperability, reproducibility, and understandability </b> of the deployed application using Docker, and well-structured documentation and comments.
     - title: Vision Language Segmentation Models (VLSMs) for Medical Images
       institution: Medical Imaging
-      year: Feb. 2023 - Jun. 2023
+      year: 2023 - 2024
       description:
         - Reported zero-shot and finetuned segmentation performance of <b>4 VLSMs</b> on <b>11 medical datasets</b> using <b>9 types of prompts</b> derived from <b>14 attributes</b>, prompts are given as text conditioning informations.
         - Worked with <b>encoder-decoder architecture</b> to generate binary segmentation masks for VLSMs.
@@ -133,7 +133,7 @@
 
     - title: Object detection in 2D Orthopantomogram (OPG) Images
       institution: Dental Imaging
-      year: Sept. 2022 - Present
+      year: 2022 - Present
       description:
         - Critically analyzed the <b>literature and state-of-the-art</b> models for different segmentation and detection tasks on radiology images of dentistry and their inadequacy.
         - Designed and developed the <b>data annotation tool</b> for object detection over 2D OPG images.
