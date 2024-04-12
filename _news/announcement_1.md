@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-04-06 19:20:00+054500
+date: 2023-08-03 17:56:00+054500
 inline: true
 related_posts: false
 ---
 
-Our Paper <i> Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models </i> has been accepted for MIDL 2024.
+<i> Synthetic Boost </i> has been accepted for ASMUS 2023 (MICCAI Workshop).

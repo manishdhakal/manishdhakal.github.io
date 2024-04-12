@@ -1,34 +1,38 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"khanal":
+  - firstname: ["Bishesh", "B.", "B. K.", "Bishesh Khanal"]
+    url: https://scholar.google.com/citations?user=ZfaUCG5h3xsC
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"adhikari":
+  - firstname: ["Rabin", "R.", "R. A.", "Rabin Adhikari"]
+    url: https://scholar.google.com/citations?user=AbjQ8KcAAAAJ
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"thapaliya":
+  - firstname: ["Safal", "S.", "S. T.", "Safal Thapaliya"]
+    url: https://scholar.google.com/citations?user=0yl8rVYAAAAJ
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"bhandari":
+  - firstname: ["Prasiddha", "P.", "P. B.", "Prasiddha Bhandari"]
+    url: https://scholar.google.com/citations?user=HYNmn_8AAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+  # - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+  #   url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"poudel":
+  - firstname: ["Kanchan", "K.", "K. P.", "Kanchan Poudel"]
+    url: https://scholar.google.com/citations?user=9Hme_4UAAAAJ
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"chhetri":
+  - firstname: ["Arman", "A.", "A. C.", "Arman Chhetri"]
+    url: https://scholar.google.com/citations?user=-qKyTo0AAAAJ
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"shakya":
+  - firstname: ["Subarna", "S.", "S. S.", "Subarna Shakya" ]
+    url: https://scholar.google.com/citations?user=ZB6i0OKaPo4C
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"lamichhane":
+  - firstname: ["Prabin", "P.", "P. L.", "Prabin Lamichhane"]
+    url: https://scholar.google.com/citations?user=rRqEZVAAAAAJ
+
+"gupta":
+  - firstname: ["Aman Kumar", "A. K.", "A. K. G.", "Aman Kumar Gupta"]
+    url: https://scholar.google.com/citations?user=1JzhDL4AAAAJ
