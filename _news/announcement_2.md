@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending <i> ICVGIP 2023</i> conference  on 15<sup>th</sup>-17<sup>th</sup> Dec, 2023, at IIT Ropar, India.
+Attending ICVGIP 2023 conference  on 15<sup>th</sup>-17<sup>th</sup> Dec, 2023, at IIT Ropar, India.

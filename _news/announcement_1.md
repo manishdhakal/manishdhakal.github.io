@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<i> Synthetic Boost </i> has been accepted for ASMUS 2023 (MICCAI Workshop).
+<i>"Synthetic Boost''</i> &nbsp; has been accepted for ASMUS 2023 (MICCAI Workshop).

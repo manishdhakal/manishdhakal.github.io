@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<i> Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models </i> has been accepted for MIDL 2024.
+<i>"Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models''</i> &nbsp; has been accepted for MIDL 2024.
