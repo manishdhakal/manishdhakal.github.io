@@ -281,7 +281,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["computer-vision", "super-resolution"] # these tags will be displayed on the front page of your blog
-display_categories: ["technical-posts"] # these categories will be displayed on the front page of your blog
+display_categories: ["technical-posts", "non-technical-posts"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
