@@ -6,16 +6,16 @@
     - name: Languages
       value: Nepali, English
     - name: Position
-      value: Research Assistant, <a href='https://naamii.org.np'>NAAMII</a>
+      value: Graduate Research Assistant, Georgia State University
     - name: Summary
-      value: An accomplished computer engineer with experience as a Research Assistant (RA), interested in multimodal learning, medical imaging, and continual learning, skilled in maths and programming, and adept at communicating research results to the community, contributing to advancements in artificial intelligence research.
+      value: An accomplished computer engineer, interested in multimodal learning, medical imaging, and continual learning, skilled in maths and programming, and adept at communicating research results to the community, contributing to advancements in artificial intelligence research.
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Assistant
       institution: Nepal Applied Mathematics and Informatics Institute for research (NAAMII) <br> <i>Supervisor:</i> <a name="Bishesh Khanal, Ph.D." href="https://scholar.google.com/citations?user=ZfaUCG5h3xsC"> <u>Bishesh Khanal, Ph.D.</u> </a>
-      year: 2022 - Present
+      year: 2022 - 2024
       description:
         - Developed skills for <b> object detection and segmentation </b> tasks on 2D medical images and explored their multi-modal approach ( esp. <b>vision-language models </b> ); also worked for segmentation with <b>3D mesh</b> data.
         - Demonstrated <b> strong skills in writing scientific manuscripts, </b> with multiple papers submitted for review, showcasing the ability to <b> communicate methodologies, results, and implications </b> effectively. 
@@ -117,7 +117,7 @@
 
     - title: Object detection in 2D Orthopantomogram (OPG) Images
       institution: Dental Imaging
-      year: 2022 - Present
+      year: 2022 - 2024
       description:
         - Critically analyzed the <b>literature and state-of-the-art</b> models for different segmentation and detection tasks on radiology images of dentistry and their inadequacy.
         - Designed and developed the <b>data annotation tool</b> for object detection over 2D OPG images.
@@ -157,6 +157,10 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - LMIC Travel Grant by MICCAI.
+        - Presidential Fellowship within TCV initiative by GSU.
     - year: 2017
       items: 
         - B.E. funded by Government of Nepal.
