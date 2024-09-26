@@ -2,6 +2,7 @@ github_users:
   - manishdhakal
 
 github_repos:
+  - naamiinepal/vlsm-adapter
   - naamiinepal/medvlsm
   - manishdhakal/ASR-Nepali-using-CNN-BiLSTM-ResNet
   - naamiinepal/synthetic-boost
