@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<b>VLSM-Adapter</b> research paper has been accepted for the main conference of MICCAI 2024.
+<b>VLSM-Adapter</b> research paper has been accepted for the main conference of MICCAI, 2024.

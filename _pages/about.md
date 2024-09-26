@@ -21,4 +21,4 @@ social: true # includes social icons at the bottom of the page
 
 Hello, I'm Manish Dhakal, a <b> PhD Student</b> at Georgia State University, under the supervision of <a href="https://ding1.com"> Dr. Yi Ding</a>. I am working as a <b> Graduate Research Assistant (GRA)</b> for computer science department, specializing in Computer Vision and Natural Language Processing research.
 
-I'm currently looking for new ML/AI research opportunities. My desire to contribute to these sectors and investigate cutting-edge solutions is motivated by a sincere curiosity. I'm looking forward to pursuing relevant <b> graduate programs</b> to further my education and give back to the ML/AI community.
+My desire to contribute to these sectors and investigate cutting-edge solutions is motivated by a sincere curiosity. I'm pursuing relevant <b> graduate programs</b> to further my education and give back to the ML/AI community.
