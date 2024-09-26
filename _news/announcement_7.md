@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded with <b>LMCIC Travel Grant</b> by MICCAI, 2024, to present our research work.
+Awarded with <b>LMIC Travel Grant</b> by MICCAI, 2024, to present our research work.
