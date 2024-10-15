@@ -1,6 +1,31 @@
 ---
 ---
-@article{dhakal2024vlsm,
+
+@article{adhikari2024tunevlseg,
+  abbr={ACCV},
+  title={TuneVLSeg: Prompt Tuning Benchmark for Vision-Language Segmentation Models},
+  abstract={Vision-Language Models (VLMs) have shown impressive performance in vision tasks, but adapting them to new domains often requires expensive fine-tuning. 
+    Prompt tuning techniques, including textual, visual, and multimodal prompting, offer efficient alternatives by leveraging learnable prompts. 
+    However, their application to Vision-Language Segmentation Models (VLSMs) and evaluation under significant domain shifts remain unexplored. 
+    This work presents an open-source benchmarking framework, TuneVLSeg, to integrate various unimodal and multimodal prompt tuning techniques into VLSMs, making prompt tuning usable for downstream segmentation datasets with any number of classes. 
+    TuneVLSeg includes 6 prompt tuning strategies on various prompt depths used in 2 VLSMs totaling of 8 different combinations. 
+    We test various prompt tuning on 8 diverse medical datasets, including 3 radiology datasets (breast tumor, echocardiograph, chest X-ray pathologies) and 5 non-radiology datasets (polyp, ulcer, skin cancer), and two natural domain segmentation datasets. 
+    Our study found that textual prompt tuning struggles under significant domain shifts, from natural-domain images to medical data. 
+    Furthermore, visual prompt tuning, with fewer hyperparameters than multimodal prompt tuning, often achieves performance competitive to multimodal approaches, making it a valuable first attempt. 
+    Our work advances the understanding and applicability of different prompt-tuning techniques for robust domain-specific segmentation.
+    },
+  author={Adhikari, Rabin and Thapaliya, Safal and Dhakal, Manish and Khanal, Bishesh},
+  journal={arXiv preprint arXiv:2410.05239},
+  year={2024},
+  arxiv={2410.05239},
+  code={https://github.com/naamiinepal/tunevlseg},
+  pdf={https://arxiv.org/pdf/2410.05239},
+  bibtex_show={true},
+  selected={true}
+}
+
+
+@inproceedings{dhakal2024vlsm,
   abbr={MICCAI},
   title={VLSM-Adapter: Finetuning Vision-Language Segmentation Efficiently with Lightweight Blocks},
   abstract={Foundation Vision-Language Models (VLMs) trained using large-scale open-domain images and text pairs have recently been adapted to develop Vision-Language Segmentation Models (VLSMs) that allow providing text prompts during inference to guide image segmentation. 
@@ -10,15 +35,15 @@
     We introduce a novel adapter, VLSM-Adapter, that can fine-tune pretrained vision-language segmentation models using transformer encoders. Our experiments in widely used CLIP-based segmentation models show that with only 3 million trainable parameters, the VLSM-Adapter outperforms state-of-the-art and is comparable to the upper bound end-to-end fine-tuning.
   },
   author={Dhakal, Manish and Adhikari, Rabin and Thapaliya, Safal and Khanal, Bishesh},
-  journal={arXiv preprint arXiv:2405.06196},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={712--722},
   year={2024},
+  organization={Springer},
   arxiv={2405.06196},
   code={https://github.com/naamiinepal/vlsm-adapter},
   pdf={https://arxiv.org/pdf/2405.06196},
   bibtex_show={true},
-  selected={true}
 }
-
 
 @inproceedings{adhikari2023synthetic,
   abbr={MICCAI},

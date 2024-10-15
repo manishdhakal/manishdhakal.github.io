@@ -8,11 +8,17 @@
     - name: Position
       value: Graduate Research Assistant, Georgia State University
     - name: Summary
-      value: An accomplished computer engineer, interested in multimodal learning, medical imaging, and continual learning, skilled in maths and programming, and adept at communicating research results to the community, contributing to advancements in artificial intelligence research.
+      value: Graduate Research Assistant at Georgia State University since August 2024, previously a Research Assistant at NAAMII (2022-2024), with expertise in medical image analysis, vision-language models, and reproducible ML project methodologies.
 
 - title: Experience
   type: time_table
   contents:
+    - title: Graduate Research Assistant
+      institution: Georgia State University
+      year: 2024 - 2029*
+      description:
+        - Research Assistant at Assistive Intelligence Lab.
+
     - title: Research Assistant
       institution: Nepal Applied Mathematics and Informatics Institute for research (NAAMII) <br> <i>Supervisor:</i> <a name="Bishesh Khanal, Ph.D." href="https://scholar.google.com/citations?user=ZfaUCG5h3xsC"> <u>Bishesh Khanal, Ph.D.</u> </a>
       year: 2022 - 2024
@@ -43,6 +49,11 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. in Computer Science
+      institution: Georgia State University <br> <i>Advisor:</i> <a name="Yi Ding, Ph.D." href="https://ding1.com"> <u>Yi Ding, Ph.D.</u> </a>
+      year: 2024 - 2029*
+      description:
+        - Research work in computer vision and natural language processing.
     - title: Bachelor in Computer Engineering
       institution: Pulchowk Campus, Institute of Engineering, Tribhuvan University <br> <i>Thesis Supervisor:</i> <a name=" Prof. Subarna Shakya" href="https://scholar.google.com/citations?user=ZB6i0OKaPo4C"> <u> Prof. Subarna Shakya</u> </a>
       year: 2017 - 2022
@@ -160,10 +171,10 @@
     - year: 2024
       items: 
         - LMIC Travel Grant by MICCAI.
-        - Presidential Fellowship within TCV initiative by GSU.
+        - Presidential Fellowship within TCV initiative by GSU (Only 6% of the doctoral students).
     - year: 2017
       items: 
-        - B.E. funded by Government of Nepal.
+        - Undergraduate funded by Government of Nepal.
     # - year: 2029
     #   items: 
     #     - Max Planck Medal
@@ -187,6 +198,10 @@
 - title: References
   type: nested_list
   contents:
+    - title: Yi Ding, Ph.D.
+      items:
+        - Assistant Professor, Department of Computer Science, Georgia State University
+        - <a href="mailto:yiding@gsu.edu">yiding@gsu.edu</a>
     - title: Bishesh Khanal, Ph.D.
       items:
         - Research Director, Nepal Applied Mathematics and Informatics Institute for research (NAAMII)
@@ -199,4 +214,3 @@
       items:
         - Associate Researcher, University of California San Francisco || Adjunct Research Scientist, Nepal Applied Mathematics and Informatics Institute for research (NAAMII)
         - <a href="mailto:taman.upadhaya@naamii.org.np">taman.upadhaya@naamii.org.np</a>
-
