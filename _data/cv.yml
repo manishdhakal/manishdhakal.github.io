@@ -8,7 +8,8 @@
     - name: Position
       value: Graduate Research Assistant, Georgia State University
     - name: Summary
-      value: Graduate Research Assistant at Georgia State University since August 2024, previously a Research Assistant at NAAMII (2022-2024), with expertise in medical image analysis, vision-language models, and reproducible ML project methodologies.
+      value: Graduate Research Assistant at Georgia State University with expertise in medical image analysis, vision-language models, and reproducible machine learning project methodologies. 
+        Strong skills in writing scientific manuscripts and communicating methodologies, results, and implications effectively.
 
 - title: Experience
   type: time_table
@@ -17,7 +18,9 @@
       institution: Georgia State University
       year: 2024 - 2029*
       description:
-        - Research Assistant at Assistive Intelligence Lab.
+        - <b>Student researcher</b> at <b>C</b>ollaborative <b>H</b>uman <b>AI</b> (<b>CHAI</b>) Center, funded by US Department of Defense (<b>DoD</b>).
+        - Deep learning projects on computer vision applications , collaborating with <b>Army Research Lab (ARL)</b>.
+        - Resource-friendly transfer learning with <b>Parameter Efficient Fine-tuning (PEFT) and Adapters</b>.
 
     - title: Research Assistant
       institution: Nepal Applied Mathematics and Informatics Institute for research (NAAMII) <br> <i>Supervisor:</i> <a name="Bishesh Khanal, Ph.D." href="https://scholar.google.com/citations?user=ZfaUCG5h3xsC"> <u>Bishesh Khanal, Ph.D.</u> </a>
@@ -54,6 +57,7 @@
       year: 2024 - 2029*
       description:
         - Research work in computer vision and natural language processing.
+        - Awarded with <b>graduate research assistantship (GRA)</b> from the computer science department.
     - title: Bachelor in Computer Engineering
       institution: Pulchowk Campus, Institute of Engineering, Tribhuvan University <br> <i>Thesis Supervisor:</i> <a name=" Prof. Subarna Shakya" href="https://scholar.google.com/citations?user=ZB6i0OKaPo4C"> <u> Prof. Subarna Shakya</u> </a>
       year: 2017 - 2022
