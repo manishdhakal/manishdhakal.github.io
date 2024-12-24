@@ -1,29 +1,28 @@
 ---
 ---
 
-@article{adhikari2024tunevlseg,
+@InProceedings{Adhikari_2024_ACCV,
   abbr={ACCV},
+  author={Adhikari, Rabin and Thapaliya, Safal and Dhakal, Manish and Khanal, Bishesh},
   title={TuneVLSeg: Prompt Tuning Benchmark for Vision-Language Segmentation Models},
   abstract={Vision-Language Models (VLMs) have shown impressive performance in vision tasks, but adapting them to new domains often requires expensive fine-tuning. 
     Prompt tuning techniques, including textual, visual, and multimodal prompting, offer efficient alternatives by leveraging learnable prompts. 
     However, their application to Vision-Language Segmentation Models (VLSMs) and evaluation under significant domain shifts remain unexplored. 
     This work presents an open-source benchmarking framework, TuneVLSeg, to integrate various unimodal and multimodal prompt tuning techniques into VLSMs, making prompt tuning usable for downstream segmentation datasets with any number of classes. 
-    TuneVLSeg includes 6 prompt tuning strategies on various prompt depths used in 2 VLSMs totaling of 8 different combinations. 
     We test various prompt tuning on 8 diverse medical datasets, including 3 radiology datasets (breast tumor, echocardiograph, chest X-ray pathologies) and 5 non-radiology datasets (polyp, ulcer, skin cancer), and two natural domain segmentation datasets. 
-    Our study found that textual prompt tuning struggles under significant domain shifts, from natural-domain images to medical data. 
-    Furthermore, visual prompt tuning, with fewer hyperparameters than multimodal prompt tuning, often achieves performance competitive to multimodal approaches, making it a valuable first attempt. 
-    Our work advances the understanding and applicability of different prompt-tuning techniques for robust domain-specific segmentation.
-    },
-  author={Adhikari, Rabin and Thapaliya, Safal and Dhakal, Manish and Khanal, Bishesh},
-  journal={arXiv preprint arXiv:2410.05239},
+    Our study found that textual prompt tuning struggles under significant domain shifts, from natural-domain images to medical data. Furthermore, visual prompt tuning, with fewer hyperparameters than multimodal prompt tuning, often achieves performance competitive to multimodal approaches, making it a valuable first attempt. 
+    Our work advances the understanding and applicability of different prompt-tuning techniques for robust domain-specific segmentation. 
+    The source code is available at https://github.com/naamiinepal/tunevlseg.
+  },
+  booktitle={Proceedings of the Asian Conference on Computer Vision (ACCV)},
+  month={December},
   year={2024},
+  pages={126-144},
   arxiv={2410.05239},
-  code={https://github.com/naamiinepal/tunevlseg},
-  pdf={https://arxiv.org/pdf/2410.05239},
   bibtex_show={true},
-  selected={true}
+  code={https://github.com/naamiinepal/tunevlseg},
+  pdf={https://arxiv.org/pdf/2410.05239}
 }
-
 
 @inproceedings{dhakal2024vlsm,
   abbr={MICCAI},
