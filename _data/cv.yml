@@ -1,27 +1,45 @@
-- title: General Information
-  type: map
+- title: Summary
+  type: list
+  contents: 
+    - Graduate Research Assistant at Georgia State University with expertise in medical image analysis, vision-language models, and reproducible machine learning project methodologies. Strong skills in writing scientific manuscripts and communicating methodologies, results, and implications effectively.
+    # - name: Name
+    #   value: Manish Dhakal
+    # - name: Languages
+    #   value: Nepali, English
+    # - name: Position
+    #   value: Graduate Research Assistant, Georgia State University
+
+- title: Education
+  type: time_table
   contents:
-    - name: Full Name
-      value: Manish Dhakal
-    - name: Languages
-      value: Nepali, English
-    - name: Position
-      value: Graduate Research Assistant, Georgia State University
-    - name: Summary
-      value: Graduate Research Assistant at Georgia State University with expertise in medical image analysis, vision-language models, and reproducible machine learning project methodologies. 
-        Strong skills in writing scientific manuscripts and communicating methodologies, results, and implications effectively.
+    - title: Ph.D. in Computer Science
+      institution: Georgia State University <br> <i>Advisor:</i> <a name="Yi Ding, Ph.D." href="https://ding1.com"> <u>Yi Ding, Ph.D.</u> </a>
+      year: 2024 - 2029*
+      description:
+        - Deep learning projects on 2D/3D computer vision and large language models (LLMs), funded by the US Department of Defense (DoD).
+        - Research in resource-friendly machine learning.
+    - title: Bachelor in Computer Engineering
+      institution: Pulchowk Campus, Institute of Engineering, Tribhuvan University <br> <i>Thesis Supervisor:</i> <a name=" Prof. Subarna Shakya" href="https://scholar.google.com/citations?user=ZB6i0OKaPo4C"> <u> Prof. Subarna Shakya</u> </a>
+      year: 2017 - 2022
+      description:
+        - <b>Ranked 11th</b> in the engineering entrance exam, competing with <b>15,000+ candidates,</b> received <b>full scholarship</b> for undergraduate study.
+        - Gained knowledge about <b>significant CS courses</b> like AI, Image Processing, Data Structure & Algorithm, DBMS, Software Engineering, and so on.
+        - <i>Thesis:</i> Automatic speech recognition for <b>low-resourced Nepali language</b> which was later presented at an IEEE conference.
+
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    # - title: Federal teaching diploma
+    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+    #   year: 1900
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Graduate Research Assistant
-      institution: Georgia State University
-      year: 2024 - 2029*
-      description:
-        - <b>Student researcher</b> at <b>C</b>ollaborative <b>H</b>uman <b>AI</b> (<b>CHAI</b>) Center, funded by US Department of Defense (<b>DoD</b>).
-        - Deep learning projects on computer vision applications , collaborating with <b>Army Research Lab (ARL)</b>.
-        - Resource-friendly transfer learning with <b>Parameter Efficient Fine-tuning (PEFT) and Adapters</b>.
-
     - title: Research Assistant
       institution: Nepal Applied Mathematics and Informatics Institute for research (NAAMII) <br> <i>Supervisor:</i> <a name="Bishesh Khanal, Ph.D." href="https://scholar.google.com/citations?user=ZfaUCG5h3xsC"> <u>Bishesh Khanal, Ph.D.</u> </a>
       year: 2022 - 2024
@@ -48,34 +66,6 @@
     #   institution: Karl-Ferdinand University, Prague, Czechoslovakia
     #   year: 1911 - 1917
     #   description:
-
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D. in Computer Science
-      institution: Georgia State University <br> <i>Advisor:</i> <a name="Yi Ding, Ph.D." href="https://ding1.com"> <u>Yi Ding, Ph.D.</u> </a>
-      year: 2024 - 2029*
-      description:
-        - Research work in computer vision and natural language processing.
-        - Awarded with <b>graduate research assistantship (GRA)</b> from the computer science department.
-    - title: Bachelor in Computer Engineering
-      institution: Pulchowk Campus, Institute of Engineering, Tribhuvan University <br> <i>Thesis Supervisor:</i> <a name=" Prof. Subarna Shakya" href="https://scholar.google.com/citations?user=ZB6i0OKaPo4C"> <u> Prof. Subarna Shakya</u> </a>
-      year: 2017 - 2022
-      description:
-        - <b>Ranked 11th</b> in the engineering entrance exam, competing with <b>15,000+ candidates,</b> received <b>full scholarship</b> for undergraduate study.
-        - Gained knowledge about <b>significant CS courses</b> like AI, Image Processing, Data Structure & Algorithm, DBMS, Software Engineering, and so on.
-        - <i>Thesis:</i> Automatic speech recognition for <b>low-resourced Nepali language</b> which was later presented at an IEEE conference.
-
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
-    # - title: Federal teaching diploma
-    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-    #   year: 1900
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
 
 - title: Teaching
   type: time_table
