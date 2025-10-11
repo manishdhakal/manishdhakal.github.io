@@ -12,9 +12,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: Graduate in Computer Science
+    - title: M.S. in Computer Science
       institution: Georgia State University <br> <i>Advisor:</i> <a name="Yi Ding, Ph.D." href="https://ding1.com"> <u>Yi Ding, Ph.D.</u> </a>
-      year: 2024 - 2026*
+      year: 2024 - 2026
       description:
         - Deep learning projects on 2D/3D computer vision and large language models (LLMs), funded by the US Department of Defense (DoD).
         - Research in resource-friendly machine learning.
@@ -52,7 +52,7 @@
       description:
         - <b>Substituting visual prompts</b> with textual descriptions to enable pure LLMs to handle vision-language tasks, thereby mitigating the need for standard Vision-Language Models (VLMs).
         - LLM-centric VLM adaptation method where the LLM itself provides preference feedback to optimize the textual descriptions.
-    - title: Parameter-Efficient Fine-tuning
+    - title: Parameter Efficient Fine Tuning
       institution: Point Cloud
       year: Present
       description:
