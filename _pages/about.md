@@ -18,4 +18,4 @@ social: true # includes social icons at the bottom of the page
 
 <b>CV/NLP</b>
 
-Manish Dhakal is a graduate student at Georgia State University, supervised by Dr. <a alt="dr_ding" href="https://ding1.com">Yi Ding</a> and Dr. <a alt="dr_raj" href="https://tinman.cs.gsu.edu/~raj/">Raj Sunderraman</a>. He works as a Graduate Research Assistant (GRA) in the computer science department, specializing in applying artificial intelligence and deep learning to computer vision and natural language processing research.
+Manish Dhakal is a graduate student at Georgia State University, supervised by Dr. Yi Ding and Dr. Raj Sunderraman. He works as a Graduate Research Assistant (GRA) in the computer science department, specializing in applying artificial intelligence and deep learning to computer vision and natural language processing research.
