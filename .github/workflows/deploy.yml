@@ -1,4 +1,5 @@
 name: Deploy site
+
 on:
   push:
     branches:
@@ -63,9 +64,6 @@ on:
 permissions:
   contents: write
 
-env:
-  JEKYLL_ENV: production
-
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
@@ -76,7 +74,7 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3"
+          ruby-version: "3.3.5"
           bundler-cache: true
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
@@ -90,16 +88,16 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Install Dependencies 📦
+      - name: Install and Build 🔧
         run: |
-          sudo apt-get install -qqy imagemagick
-          pip3 install -qq nbconvert
-      - name: Build 🔧
-        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
         run: |
-          npx purgecss -c purgecss.config.js
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
