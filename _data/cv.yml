@@ -12,9 +12,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Computer Science
+    - title: Graduate in Computer Science
       institution: Georgia State University <br> <i>Advisor:</i> <a name="Yi Ding, Ph.D." href="https://ding1.com"> <u>Yi Ding, Ph.D.</u> </a>
-      year: 2024 - 2029*
+      year: 2024 - 2026*
       description:
         - Deep learning projects on 2D/3D computer vision and large language models (LLMs), funded by the US Department of Defense (DoD).
         - Research in resource-friendly machine learning.
@@ -37,6 +37,27 @@
     #     - Description 1.
     #     - Description 2.
 
+- title: Ongoing Project
+  type: time_table
+  contents:
+    - title: Knowledge Distillation
+      institution: LLMs
+      year: Present
+      description:
+        - Developing a robust knowledge distillation method utilizing a <b>teacher-student paradigm</b> to transfer complex knowledge efficiently.
+        - Engineering a feature-transfer mechanism between the teacher and student models' intermediate layers to capture and leverage rich, internal representations, ensuring robustness and high fidelity in model compression and knowledge transfer.
+    - title: LLM-Guided Adaptation for Vision-Language Models
+      institution: LLMs, VLMs
+      year: Present
+      description:
+        - <b>Substituting visual prompts</b> with textual descriptions to enable pure LLMs to handle vision-language tasks, thereby mitigating the need for standard Vision-Language Models (VLMs).
+        - LLM-centric VLM adaptation method where the LLM itself provides preference feedback to optimize the textual descriptions.
+    - title: Parameter-Efficient Fine-tuning
+      institution: Point Cloud
+      year: Present
+      description:
+        - <b>Graph Features Tuning (GFT)</b>, a Parameter-Efficient Fine-Tuning (PEFT) method specifically for point cloud data, reducing computational and memory costs compared to earlier approaches.
+        - Achieved competitive performance on object classification and segmentation tasks while substantially <b>reducing the number of trainable parameters</b> by integrating graph features into deeper layers via skip connections and efficient cross-attention.
 - title: Experience
   type: time_table
   contents:
