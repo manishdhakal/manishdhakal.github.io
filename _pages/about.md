@@ -2,14 +2,13 @@
 layout: about
 title: About
 permalink: /
-# subtitle: PhD Student, Georgia State University
 
 profile:
   align: right
   image: manish.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <center>PhD Student, GSU</center>
+    <center>Computer Science, GSU</center>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
