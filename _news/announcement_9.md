@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A paper on <b> VLM preference optimization</b> has been accepted at <b>IJCNLP-AACL, 2024</b>.
+A paper on <b> VLM preference optimization</b> has been accepted at <b>IJCNLP-AACL, 2025</b>.
