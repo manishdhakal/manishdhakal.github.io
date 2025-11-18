@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<b>Synthetic Boost</b> has been accepted for ASMUS (MICCAI Workshop), 2024.
+<b>Synthetic Boost</b> has been accepted to ASMUS (MICCAI Workshop), 2024.
