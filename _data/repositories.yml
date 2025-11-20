@@ -2,10 +2,9 @@ github_users:
   - manishdhakal
 
 github_repos:
+  - manishdhakal/GFT
   - naamiinepal/vlsm-adapter
   - naamiinepal/medvlsm
   - manishdhakal/ASR-Nepali-using-CNN-BiLSTM-ResNet
   - naamiinepal/synthetic-boost
   - manishdhakal/Backpropagation
-  - manishdhakal/SuperResolution
-  - gaudelbijay/NepaliAutoCompleteAndLM
