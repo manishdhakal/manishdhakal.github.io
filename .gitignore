@@ -9,3 +9,12 @@ _site
 Gemfile.lock
 node_modules/
 vendor
+
+# LaTeX build artifacts (cv/)
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.xdv
+*.synctex.gz

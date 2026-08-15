@@ -1,0 +1,55 @@
+{
+  // The CV class (cv/kyvernitis-resume.cls) loads fontspec and hyperref[xetex],
+  // which pdflatex cannot use. Build with XeLaTeX by default.
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-xelatex",
+      "command": "latexmk",
+      "args": [
+        "-xelatex",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+    {
+      "name": "latexmk-pdflatex",
+      "command": "latexmk",
+      "args": [
+        "-pdf",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (xelatex)",
+      "tools": ["latexmk-xelatex"]
+    },
+    {
+      "name": "latexmk (pdflatex)",
+      "tools": ["latexmk-pdflatex"]
+    }
+  ],
+  "latex-workshop.latex.recipe.default": "first",
+  // Let a "% !TEX program = ..." line in a file override the default recipe.
+  "latex-workshop.latex.build.forceRecipeUsage": false,
+
+  // Formatting: tex-fmt (Homebrew). latexindent is not installed here.
+  // Tabsize 4 matches the existing indentation in cv/*.tex; --nowrap keeps
+  // long publication entries on one line.
+  "latex-workshop.formatting.latex": "tex-fmt",
+  "latex-workshop.formatting.tex-fmt.path": "/opt/homebrew/bin/tex-fmt",
+  "latex-workshop.formatting.tex-fmt.args": ["--nowrap", "--tabsize", "4"],
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop",
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4
+  }
+}
