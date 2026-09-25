@@ -1,7 +1,7 @@
 - title: Summary
   type: list
   contents: 
-    - Ph.D. student in Industrial Engineering at the University of Tennessee, Knoxville, with expertise in model compression, efficient learning, vision-language models, and reproducible machine learning project methodologies. Strong skills in writing scientific manuscripts and communicating methodologies, results, and implications effectively.
+    - Ph.D. student in Industrial Engineering at the University of Tennessee, Knoxville, with expertise in efficient adaptation and knowledge compression of large pretrained vision, language, and multimodal models, and reproducible machine learning project methodologies. Strong skills in writing scientific manuscripts and communicating methodologies, results, and implications effectively.
     # - name: Name
     #   value: Manish Dhakal
     # - name: Languages
@@ -14,15 +14,18 @@
   contents:
     - title: Ph.D. in Industrial Engineering
       institution: University of Tennessee, Knoxville <br> <i>Advisor:</i> <a name="Yi Ding, Ph.D." href="https://ding1.com"> <u>Yi Ding, Ph.D.</u> </a>
-      year: 2026 - 2029*
+      year: 2026 - 2030*
       description:
-        - Research in <b>efficient machine learning</b> and <b>model compression</b>.
+        - Research in <b>efficient adaptation</b> and <b>knowledge compression</b> of large pretrained vision, language, and multimodal models.
+        - <b>Efficient world models and vision-language-action (VLA) models</b> for embodied agents (since Aug 2026).
+        - Continuing <b>DistillLens</b> (symmetric knowledge distillation for LLMs) and <b>DistillHPC</b> (label-free distillation for HPC code generation, with Oak Ridge National Laboratory).
     - title: M.S. in Computer Science
       institution: Georgia State University <br> <i>Advisor:</i> <a name="Yi Ding, Ph.D." href="https://ding1.com"> <u>Yi Ding, Ph.D.</u> </a>
       year: 2024 - 2026
       description:
         - Admitted to the Ph.D. program in Computer Science; <b>earned the M.S. en route</b> before transferring to UTK with the advisor's lab in 2026.
         - Deep learning projects on 2D/3D computer vision and large language models (LLMs), funded by the US Department of Defense (DoD).
+        - Started <b>DistillLens</b> (Oct 2025), a symmetric logit-lens distillation method for compressing LLMs, and <b>DistillHPC</b> (May 2026), label-free distillation for scientific code generation in collaboration with Oak Ridge National Laboratory (ORNL).
     - title: Bachelor in Computer Engineering
       institution: Pulchowk Campus, Institute of Engineering, Tribhuvan University <br> <i>Thesis Supervisor:</i> <a name=" Prof. Subarna Shakya" href="https://scholar.google.com/citations?user=ZB6i0OKaPo4C"> <u> Prof. Subarna Shakya</u> </a>
       year: 2017 - 2022
@@ -42,18 +45,40 @@
     #     - Description 1.
     #     - Description 2.
 
-- title: Ongoing Project
+- title: Ongoing Projects
   type: time_table
   contents:
-    - title: Knowledge Distillation
-      institution: LLMs
-      year: Present
+    - title: DistillLens
+      institution: Knowledge Compression for LLMs
+      year: Oct 2025 - Present
       description:
-        - Developing a robust knowledge distillation method utilizing a <b>teacher-student paradigm</b> to transfer complex knowledge efficiently.
-        - Engineering a feature-transfer mechanism between the teacher and student models' intermediate layers to capture and leverage rich, internal representations, ensuring robustness and high fidelity in model compression and knowledge transfer.
+        - Symmetric knowledge distillation that projects teacher and student intermediate hidden states into vocabulary space via the <b>logit lens</b> and aligns them with a <b>symmetric divergence</b>.
+        - Outperforms standard distillation and feature-transfer baselines across GPT-2, Llama-2, and Qwen model families on instruction-following and math reasoning benchmarks, with no added inference cost.
+    - title: DistillHPC
+      institution: Scientific Code Generation <br> <i>Collaborator:</i> Oak Ridge National Laboratory (ORNL)
+      year: May 2026 - Present
+      description:
+        - <b>Label-free knowledge distillation</b> to train compact coding assistants for the parallel programming languages used on DOE supercomputers, without human-authored expert examples.
+    - title: Efficient World Models and VLAs
+      institution: Embodied AI
+      year: Aug 2026 - Present
+      description:
+        - Applying <b>efficient adaptation</b> and <b>knowledge compression</b> to world models and <b>vision-language-action (VLA)</b> models, so one shared model can be specialized to many tasks from limited demonstration data.
 - title: Experience
   type: time_table
   contents:
+    - title: Graduate Research Assistant
+      institution: University of Tennessee, Knoxville <br> <i>Advisor:</i> <a name="Yi Ding, Ph.D." href="https://ding1.com"> <u>Yi Ding, Ph.D.</u> </a>
+      year: 2026 - 2030*
+      description:
+        - Research on <b>efficient world models and vision-language-action (VLA) models</b> for embodied agents.
+        - Continuing <b>DistillLens</b> and <b>DistillHPC</b>, the latter in collaboration with Oak Ridge National Laboratory (ORNL).
+    - title: Graduate Research Assistant
+      institution: Georgia State University <br> <i>Advisor:</i> <a name="Yi Ding, Ph.D." href="https://ding1.com"> <u>Yi Ding, Ph.D.</u> </a>
+      year: 2024 - 2026
+      description:
+        - Deep learning projects on <b>2D/3D computer vision</b> and <b>large language models (LLMs)</b>, funded by the US Department of Defense (DoD).
+        - Developed <b>parameter-efficient fine-tuning</b> for point clouds (GFT, WACV 2026) and <b>knowledge distillation</b> methods for LLMs (DistillLens; safety-alignment distillation, EMNLP Findings 2026).
     - title: Research Assistant
       institution: Nepal Applied Mathematics and Informatics Institute for research (NAAMII) <br> <i>Supervisor:</i> <a name="Bishesh Khanal, Ph.D." href="https://scholar.google.com/citations?user=ZfaUCG5h3xsC"> <u>Bishesh Khanal, Ph.D.</u> </a>
       year: 2022 - 2024
@@ -176,6 +201,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - MICCAI Reviewer.
+    - year: 2025
+      items:
+        - AAAI Reviewer.
     - year: 2024
       items: 
         - LMIC Travel Grant by MICCAI.
@@ -192,8 +223,10 @@
   contents:
     - title: AI/ML
       items:
+        - Knowledge Distillation
+        - Parameter-Efficient Fine-Tuning
+        - Vision-Language and Vision-Language-Action Models
         - Medical Imaging
-        - Vision Language Model
     # - title: Topic 2.
     #   items:
     #     - Description 1.
