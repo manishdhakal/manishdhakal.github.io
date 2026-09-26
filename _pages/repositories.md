@@ -45,3 +45,5 @@ nav_order: 4
   {% endfor %}
 </div>
 {% endif %}
+
+<script src="{{ '/assets/js/github-cards.js' | relative_url }}" defer></script>
