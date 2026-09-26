@@ -46,4 +46,4 @@ nav_order: 4
 </div>
 {% endif %}
 
-<script src="{{ '/assets/js/github-cards.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/github-cards.js' | relative_url | bust_file_cache }}" defer></script>
